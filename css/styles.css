@@ -32,7 +32,7 @@
 
 /*****************************************
 Colors:
-- Darkest, navbar, first background: #1a1b20
+- Darkest, navbar, first background: #24306A
 - Darker, second background: #24252c
 - Dark, nav-pills: #52555f
 - Green, regular buttons: #00bb5c
@@ -486,8 +486,8 @@ img.decorative-line {
 /*     03. NAVIGATION     */
 /**************************/
 .navbar {
-	border-bottom: 1px solid #1a1b20;
-	background: #1a1b20;
+	border-bottom: 1px solid #FDD051;
+	background: #FDD051;
 }
 
 .navbar .nav.navbar-nav {
@@ -509,8 +509,8 @@ img.decorative-line {
 }
 
 .navbar .navbar-brand img {
-	width: 100px;
-	height: 26px;
+	width: 50px;
+	/* height: 26px; */
 }
 
 /* Menu links */
@@ -628,17 +628,17 @@ img.decorative-line {
 }
   
 .header .swiper-container-header .swiper-slide.first .slider-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://placehold.it/1920x1080/393d48/7c7e85/") center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
 	background-size: cover;
 }
 
 .header .swiper-container-header .swiper-slide.second .slider-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://placehold.it/1920x1080/393d48/7c7e85/") center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
 	background-size: cover;
 }
 
 .header .swiper-container-header .swiper-slide.third .slider-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://placehold.it/1920x1080/393d48/7c7e85/") center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
 	background-size: cover;
 }
 
@@ -848,7 +848,7 @@ img.decorative-line {
 .overview {
 	position: relative;
 	padding-top: 60px;
-	background: #1a1b20;
+	background: #24306A;
 	text-align: center;
 }
 
@@ -868,7 +868,7 @@ img.decorative-line {
 .duration {
 	padding-top: 60px;
 	padding-bottom: 90px;
-	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://placehold.it/1920x1080/393d48/7c7e85/') center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://placehold.it/1920x1080/1F3F79/223872/') center no-repeat;
 	background-size: cover;
 }
 
@@ -1113,7 +1113,7 @@ img.decorative-line {
 .pricing {
 	padding-top: 60px;
 	padding-bottom: 90px;
-	background: linear-gradient(rgba(0, 187, 92, 0.0), rgba(0, 187, 92, 0.0)), url('http://placehold.it/1920x1080/393d48/7c7e85/') center no-repeat;
+	background: linear-gradient(rgba(0, 187, 92, 0.0), rgba(0, 187, 92, 0.0)), url('http://placehold.it/1920x1080/1F3F79/223872/') center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -1244,7 +1244,7 @@ img.decorative-line {
 .instructors {
 	padding-top: 60px;
 	padding-bottom: 45px;
-	background-color: #1a1b20;
+	background-color: #24306A;
 }
 
 .instructors .decorative-line {
@@ -1461,7 +1461,7 @@ img.decorative-line {
 .statistics {
 	padding-top: 30px;
 	padding-bottom: 100px;
-	background-color: #1a1b20;
+	background-color: #24306A;
 }
 
 .statistics .number-container {
@@ -1489,7 +1489,7 @@ img.decorative-line {
 .endorsement {
 	padding-top: 80px;
 	padding-bottom: 90px;
-	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://placehold.it/1920x1080/393d48/7c7e85/') center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://placehold.it/1920x1080/1F3F79/223872/') center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -1519,7 +1519,7 @@ img.decorative-line {
 .footer {
 	padding-top: 85px;
 	padding-bottom: 73px;
-	background-color: #1a1b20;
+	background-color: #24306A;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1596,7 +1596,7 @@ img.decorative-line {
 .copyright {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #1a1b20;
+	background-color: #24306A;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1830,7 +1830,7 @@ a:hover.back-to-top {
 	
 	.navbar.top-nav-collapse {
        	padding: 0 25px 0 15px;
-		background-color: #1a1b20;
+		background-color: #FDD051;
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 	}
@@ -1847,7 +1847,7 @@ a:hover.back-to-top {
 	.navbar .nav.navbar-nav li a,
 	.navbar .nav.navbar-nav.navbar-right li a	{
 		margin: 11px 10px 16px 10px;
-		padding: 13px 5px 5px 5px;
+		padding: 24px 5px 20px 5px;
 		transition: all .2s ease-in-out;
 	}
 	
