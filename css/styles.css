@@ -885,7 +885,9 @@ img.decorative-line {
 	background-color: #52555f;
 	border-radius: 6px;
 }
-
+.duration .duration-pane p{
+	text-align: justify;
+}
 .duration .day-circle {
 	position: absolute;
 	top: -25px;
