@@ -656,10 +656,13 @@ img.decorative-line {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
-	/* padding: 110px 0px 90px 0px;	 */
-	padding: 0 0 115px 0;	
+	padding: 170px 0px 90px 0px;	
 }
-
+@media (min-width:992px){
+	.header .header-content .content-overlay {
+	padding: 0 0 115px 0;	
+	}
+}
 .header .countdown {
 	font: 600 32px/0.5em "Open Sans", sans-serif;
 	margin-bottom: 25px;
