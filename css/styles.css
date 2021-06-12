@@ -46,31 +46,31 @@ Colors:
 /******************************/
 body {
 	color: #fff;
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 }
 
 h1 {
-	font: 500 38px/1.1em "Ubuntu", sans-serif;
+	font: 700 38px/1.1em "Open Sans", sans-serif;
 }
 
 h2 {
-	font: 500 36px/1.1em "Ubuntu", sans-serif;
+	font: 600 36px/1.1em "Open Sans", sans-serif;
 }
 
 h3 {
-	font: 500 26px/1.2em "Ubuntu", sans-serif;
+	font: 600 26px/1.2em "Open Sans", sans-serif;
 }
 
 h4 {
-	font: 500 22px/1.4em "Ubuntu", sans-serif;
+	font: 600 22px/1.4em "Open Sans", sans-serif;
 }
 
 h5 {
-	font: 500 20px/1.5em "Ubuntu", sans-serif;
+	font: 600 20px/1.5em "Open Sans", sans-serif;
 }
 
 p {
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 }
 
 p.seventy-percent-width {
@@ -105,7 +105,7 @@ img.decorative-line {
 	border-radius: 50px;
 	background-color: #00bb5c;
 	color: #fff;
-	font: 500 15px/40px "Ubuntu", sans-serif;
+	font: 600 15px/40px "Open Sans", sans-serif;
 	transition: border .3s ease, background-color .3s ease, color .3s ease;
 }
 
@@ -117,7 +117,7 @@ img.decorative-line {
 	border: 1px solid #00bb5c;
 	border-radius: 50px;
 	background-color: #00bb5c;
-	font: 500 18px/51px "Ubuntu", sans-serif;
+	font: 600 18px/51px "Open Sans", sans-serif;
 }
 
 .button-solid:hover,
@@ -138,7 +138,7 @@ img.decorative-line {
 	border-radius: 50px;
 	background-color: transparent;
 	color: #fff;
-	font: 500 15px/40px "Ubuntu", sans-serif;
+	font: 600 15px/40px "Open Sans", sans-serif;
 	transition: border .3s ease, background-color .3s ease, color .3s ease;
 }
 
@@ -155,7 +155,7 @@ img.decorative-line {
 	border: 1px solid #52555f;
 	border-radius: 4px;	
 	color: #fff;
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
@@ -166,7 +166,7 @@ img.decorative-line {
 	border-radius: 4px;
 	background-color: #52555f;
 	color: #fff;
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 }
 
 .form-control-submit-button {
@@ -177,7 +177,7 @@ img.decorative-line {
 	border-radius: 4px;
 	background-color: #00bb5c;
 	color: #fff;
-	font: 500 16px/36px "Ubuntu", sans-serif;
+	font: 600 16px/36px "Open Sans", sans-serif;
 	transition: background-color .3s ease, color .3s ease;
 }
 
@@ -218,7 +218,7 @@ img.decorative-line {
 	margin-top: 12px;
 	margin-bottom: 8px;
 	color: #fff;
-	font: 300 18px/1em "Ubuntu", sans-serif;
+	font: 300 18px/1em "Open Sans", sans-serif;
 }
 
 #cmsgSubmit.h3.text-center.tada.animated.text-success,
@@ -517,7 +517,7 @@ img.decorative-line {
 .navbar .nav.navbar-nav li a {
 	color: #fff;
 	opacity: 0.8;
-	font: 500 14px/1em "Ubuntu", sans-serif; 
+	font: 600 14px/1em "Open Sans", sans-serif; 
 }
 
 .navbar .nav.navbar-nav li a:hover,
@@ -628,10 +628,10 @@ img.decorative-line {
 }
   
 .header .swiper-container-header .swiper-slide.first .slider-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
+	background: url("../images/bg-1.png") center no-repeat;
 	background-size: cover;
 }
-
+/* 
 .header .swiper-container-header .swiper-slide.second .slider-background {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
 	background-size: cover;
@@ -640,7 +640,7 @@ img.decorative-line {
 .header .swiper-container-header .swiper-slide.third .slider-background {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://placehold.it/1920x1080/1F3F79/223872/") center no-repeat;
 	background-size: cover;
-}
+} */
 
 .header .swiper-container-header .swiper-slide .slider-background {
 	width: 100%;
@@ -656,11 +656,12 @@ img.decorative-line {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
-	padding: 110px 0px 90px 0px;	
+	/* padding: 110px 0px 90px 0px;	 */
+	padding: 0 0 115px 0;	
 }
 
 .header .countdown {
-	font: 500 32px/0.5em "Ubuntu", sans-serif;
+	font: 600 32px/0.5em "Open Sans", sans-serif;
 	margin-bottom: 25px;
 	text-align: center;
 }
@@ -672,7 +673,7 @@ img.decorative-line {
 	margin-right: 12px;
 	padding-top: 33px;
 	margin-top: 15px;
-	border: 2px solid #fff;
+	border: 2px solid #e70000;
 	border-radius: 50%;
 	background-color: transparent;
 	text-align: center;
@@ -688,14 +689,14 @@ img.decorative-line {
 }
 
 .header .countdown #clock .timer-text {
-	font: 300 12px/1em "Ubuntu", sans-serif;
+	font: 300 12px/1em "Open Sans", sans-serif;
 	text-align: center;
 }
 
 .header p {
 	margin-top: 20px;
 	margin-right: 10px;
-	font: 300 20px/1.5em "Ubuntu", sans-serif;
+	font: 300 15px/1.125em "Open Sans", sans-serif;
 	text-align: center;
 }
 
@@ -812,7 +813,7 @@ img.decorative-line {
 .testimonials .carousel-inner .mb-0 {
 	margin-top: 15px;
 	margin-bottom: 6px;
-	font: italic 300 18px/1.6em "Ubuntu", sans-serif;
+	font: italic 300 18px/1.6em "Open Sans", sans-serif;
 }
 
 .testimonials .carousel-inner h5 {
@@ -893,7 +894,7 @@ img.decorative-line {
 	border: 2px solid #00bb5c;
 	background-color: #00bb5c;
 	color: #fff;
-	font: 500 24px/1.2em "Ubuntu", sans-serif;
+	font: 600 24px/1.2em "Open Sans", sans-serif;
 	text-align: center;
 }
 
@@ -943,7 +944,7 @@ img.decorative-line {
 	border-radius: 4px;
 	background-color: #52555f;
 	color: #fff;
-	font: 500 20px/2.3em "Ubuntu", sans-serif;
+	font: 600 20px/2.3em "Open Sans", sans-serif;
 	transition: border .3s ease, background-color .3s ease, color .3s ease;
 }
 
@@ -984,7 +985,7 @@ img.decorative-line {
 	border-radius: 25px;
     background-color: transparent;
     color: #fff;
-    font: 500 22px/1.2em "Ubuntu", sans-serif;
+    font: 600 22px/1.2em "Open Sans", sans-serif;
 	transition: all 0.3s ease;
 }
 
@@ -1121,17 +1122,17 @@ img.decorative-line {
 .pricing .above-price {
 	margin-top: 20px;
 	margin-bottom: 0px;
-	font: 300 20px/1em "Ubuntu", sans-serif;
+	font: 300 20px/1em "Open Sans", sans-serif;
 	text-decoration: line-through;
 }
 
 .pricing .price {
 	margin-bottom: 15px;
-	font: 500 38px/1.6em "Ubuntu", sans-serif;
+	font: 600 38px/1.6em "Open Sans", sans-serif;
 }
 
 .pricing .price .price-value {
-	font: 500 46px/1.2em "Ubuntu", sans-serif;
+	font: 600 46px/1.2em "Open Sans", sans-serif;
 }
 
 .pricing .button-solid {
@@ -1287,7 +1288,7 @@ img.decorative-line {
 .hover-overlay p {
 	margin-right: 40px;
 	margin-left: 40px;
-	font: 300 16px/1.4em "Ubuntu", sans-serif;
+	font: 300 16px/1.4em "Open Sans", sans-serif;
 }
 
 .hover-overlay p.read-more {
@@ -1438,7 +1439,7 @@ img.decorative-line {
 	margin-right: 12px;
 	border-radius: 3px;
 	background-color: #44454d;
-	font: 500 20px/1.5em "Ubuntu", sans-serif;
+	font: 600 20px/1.5em "Open Sans", sans-serif;
 	text-align: center;
 }
 
@@ -1473,13 +1474,13 @@ img.decorative-line {
 	margin-top: 60px;
 	margin-bottom: 0px;
 	color: #fff;
-	font: 300 80px/1em "Ubuntu", sans-serif;	
+	font: 300 80px/1em "Open Sans", sans-serif;	
 }
 
 .statistics .big-numbers-heading {
 	margin-top: 10px;
 	color: #fff; 
-	font: 300 18px/1.4em "Ubuntu", sans-serif;
+	font: 300 18px/1.4em "Open Sans", sans-serif;
 }
 
 
@@ -1495,7 +1496,7 @@ img.decorative-line {
 }
 
 .endorsement p {
-	font: italic 300 18px/1.6em "Ubuntu", sans-serif;
+	font: italic 300 18px/1.6em "Open Sans", sans-serif;
 }
 
 .endorsement h5 {
@@ -1530,7 +1531,7 @@ img.decorative-line {
 }
 
 .footer p {
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 }
 
 .footer .footer-details .fa {
@@ -1543,7 +1544,7 @@ img.decorative-line {
 
 .footer .footer-details i a {
 	margin-left: 8px;
-	font: 300 16px/1.6em "Ubuntu", sans-serif;
+	font: 300 16px/1.6em "Open Sans", sans-serif;
 }
 
 .footer .footer-details p {
@@ -1604,14 +1605,14 @@ img.decorative-line {
 .copyright span {
 	color: #fff;
 	opacity: 0.5;
-	font: 300 14px/0em "Ubuntu", sans-serif;
+	font: 300 14px/0em "Open Sans", sans-serif;
 	text-align: center;
 }
 
 .copyright a {
 	margin-top: 0px;
 	opacity: 0.8;
-	font: 300 14px/0em "Ubuntu", sans-serif;
+	font: 300 14px/0em "Open Sans", sans-serif;
 }
 
 
@@ -1644,15 +1645,15 @@ a:hover.back-to-top {
 /* Min-width width 768px */
 @media (min-width: 768px) {
 	h1 {
-		font: 500 78px/1em "Ubuntu", sans-serif;
+		font: 700 78px/1em "Open Sans", sans-serif;
 	}
 
 	h2 {
-		font: 500 48px/1em "Ubuntu", sans-serif;
+		font: 600 48px/1em "Open Sans", sans-serif;
 	}
 
 	h3 {
-		font: 500 32px/1.2em "Ubuntu", sans-serif;
+		font: 600 32px/1.2em "Open Sans", sans-serif;
 	}
 	
 	.navbar .navbar-brand {
@@ -1693,7 +1694,7 @@ a:hover.back-to-top {
 		width: 70px;
 		height: 70px;
 		padding-top: 16px;
-		font: 500 28px/1.2em "Ubuntu", sans-serif;
+		font: 600 28px/1.2em "Open Sans", sans-serif;
 	}
 	
 	.details {
@@ -2095,7 +2096,7 @@ a:hover.back-to-top {
 	}
 
 	.statistics p {
-		font: 300 100px/1em "Ubuntu", sans-serif;	
+		font: 300 100px/1em "Open Sans", sans-serif;	
 	}
 	
 	.statistics .number-container {
